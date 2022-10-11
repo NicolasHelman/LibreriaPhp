@@ -1,6 +1,10 @@
 <?php
-    include "../link.php";
-    include "../navbar.php";
+    include "../includes/link.php";
+    include "../includes/navbar.php";
+?>
+
+<?php 
+    require_once "alerts.php";
 ?>
 
 <div class="container">
@@ -77,5 +81,5 @@
 </div>
 
 <?php
-    include "../script.php";
+    include "../includes/script.php";
 ?>

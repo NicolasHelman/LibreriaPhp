@@ -4,7 +4,7 @@
 
 
     <?php
-        include "link.php";
+        include "includes/link.php";
     ?>
 
 </head>
@@ -12,14 +12,13 @@
 
     <?php
 
-        include "navbar.php";
+        include "includes/navbar.php";
 
         include "./pages/list.php";
 
-        include "script.php";
+        include "includes/script.php";
 
     ?>
-
 
 </body>
 </html>

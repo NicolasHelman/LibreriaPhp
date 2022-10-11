@@ -75,3 +75,16 @@
 <?php
     }
 ?>
+
+<!-- Alerta Not Found Busqueda -->
+<?php
+    // si existe una variable que viaja via GET por la url
+    if (isset($_GET["alert"]) && $_GET["alert"] == "notfound") {
+?>
+<div class="d-flex alert alert-danger alert-dismissible fade show mx-auto mt-3 w-25" role="alert">
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    <strong><i class="fas fa-exclamation-circle me-1"></i>Libro no encontrado</strong>
+</div>
+<?php
+    }
+?>

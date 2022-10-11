@@ -1,8 +1,8 @@
 <?php
 
-    include "../link.php";
+    include "../includes/link.php";
 
-    include "../navbar.php";
+    include "../includes/navbar.php";
 
     require_once "../conexion.php";
 
@@ -26,7 +26,7 @@
         <div class="row justify-content-center align-items-center">
             <div class="col-12 col-lg-9 col-xl-7">
                 <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
-                    <?php include "../btn_back.php" ?>
+                    <?php include "../includes/btn_back.php" ?>
                     <div class="card-body p-4 p-md-5">
                         <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 text-center fw-bold">Editar Libro</h3>
 
@@ -70,5 +70,5 @@
 </section>
 
 <?php
-    include "../script.php";
+    include "../includes/script.php";
 ?>
